@@ -1,0 +1,16 @@
+form{
+    width: 90%;
+    height: 52%;
+    overflow: auto;
+}
+
+.buttons{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+
+    @media only screen and (max-width: 800px) {
+        flex-direction: column;
+        height: 20%;
+    }
+}

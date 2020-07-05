@@ -1,0 +1,31 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width: 56px;
+        margin: 15px 0;
+    }
+
+    label{
+        font-size: 13px;
+
+        &.preco{
+            font-weight: 700;
+            font-size: 16px;
+            margin: 7px 0 0;
+        }
+    }
+
+    &.pizzaDetails{
+        border: 1px solid darkgrey;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+        padding-block-start: 10px;
+        padding-block-end: 10px;
+        border-radius: 3px;
+        width: 50%;
+        min-width: 210px;
+    }
+}

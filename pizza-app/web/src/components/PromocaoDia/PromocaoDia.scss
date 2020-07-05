@@ -1,0 +1,34 @@
+#containerPromo{
+    min-width: 220px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #display{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block-end: 15px;
+        padding-block-start: 15px;
+        border: 1px solid darkgrey;
+        margin-bottom: 40px;
+        border-radius: 2px;
+        width: 100%;
+    
+        h3{
+            margin: 0;
+        }
+
+        p{
+            margin: 8px 0px 0px;
+            font-size: 14px;
+        }
+
+        .pizzaDetails{
+            border: none;
+        }
+    
+    }
+}
+

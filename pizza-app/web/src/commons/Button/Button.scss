@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+button{
+    width: 220px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 2px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+
+    &.primary{
+        background-color: $primary-color;
+        color: white;
+        border-color: $primary-color;
+    }
+
+    &.secondary{
+        background-color: white;
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+
+    svg{
+        margin-right: 15px;
+    }
+}
+

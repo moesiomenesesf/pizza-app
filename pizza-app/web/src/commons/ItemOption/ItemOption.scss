@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+div.itemOption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    height: auto;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    padding-block-start: 7px;
+    padding-block-end: 7px;
+    cursor: pointer;
+    margin-right: 5px;
+    min-width: 222px;
+
+    &.semComplemento{
+        padding-block-start: 15px;
+        padding-block-end: 15px;
+    }
+
+    &:not(:first-child){
+        margin-top: 15px;
+    }
+
+    &.checked{
+        background-color: $active-color;
+        border-color: $primary-color;
+
+        label{
+            color: $primary-color;
+        }
+    }
+
+    >div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        &:nth-of-type(2){
+            margin-top: 8px;
+        }
+
+        .name{
+            font-weight: 600;
+        }
+    }
+}
